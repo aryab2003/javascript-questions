@@ -3734,6 +3734,7 @@ config = null;
 #### Answer: C
 Setting config to null simply removes the reference to the object, but it doesn't directly invoke the config.alert() function or affect the setInterval callback. The setInterval callback will continue to be called every second as long as the JavaScript environment is running and the interval is not cleared using clearInterval.
 
+
 </p>
 </details>
 
